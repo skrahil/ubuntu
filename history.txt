@@ -1,0 +1,46 @@
+1563  sudo apt install docker.io
+ 1564  systemctl docker.io
+ 1565  systemctl docker
+ 1566  clear
+ 1567  systemctl status docker
+ 1568  mkdir docker-project
+ 1569  cd docker-project
+ 1570  docker ps
+ 1571  $USER
+ 1572  whoami
+ 1573  sudo cat /etc/group
+ 1574  sudo usermod -aG docker $USER
+ 1575  sudo cat /etc/group
+ 1576  systemctl restart docker
+ 1577  sudo reboot
+ 1578  clear
+ 1579  ls
+ 1580  cd docker-project/
+ 1581  docker ps
+ 1582  docker pull
+ 1583  cd
+ 1584  docker ps
+ 1585  docker pull
+ 1586  docker pull mysql:latest
+ 1587  docker images
+ 1588  docker ps
+ 1589  docker run mysql:latest
+ 1590  docker run -d -e MYSQL_ROOT_PASSWORD=test@123 mysql:latest
+ 1591  docker ps
+ 1592  docker exec -it 9d5a4cff04e3 sh
+ 1593  systemctl status docker
+ 1594  docker ps
+ 1595  clear
+ 1596  cd docker-project/
+ 1597  ls
+ 1598  mkdir java-app
+ 1599  ls
+ 1600  nano file1.txt
+ 1601  ls
+ 1602  cd docker-project/
+ 1603  history
+ 1604  docker ps
+ 1605  docker image
+ 1606  clear
+ 1607  ls
+ 1608  history

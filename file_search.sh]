@@ -1,0 +1,13 @@
+#!/bin/bash
+
+
+echo -n "Enter the File name:"
+addr="/home/ubuntu"
+read  filename
+
+if [ -e  "$addr" ];
+then
+    echo "file existed"
+else
+    echo "this File does not existed"
+fi

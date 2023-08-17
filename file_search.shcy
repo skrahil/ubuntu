@@ -1,0 +1,13 @@
+#!/bin/bash
+
+
+echo -n "Enter the File name: "
+
+read  filename
+
+if [ ! -f  "$filename" == /home/ubuntu ]
+then
+    echo "file exsted"
+else
+    echo "this File does not existed"
+fi
