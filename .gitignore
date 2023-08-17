@@ -1,0 +1,18 @@
+
+
+. 
+.. 
+.Xauthority
+ .bash_history
+ .bash_logout
+ .bashrc
+ .cache
+ .docker
+ .gitconfig 
+ .lesshst 
+.local 
+.profile
+ .selected_editor
+ .ssh
+ .sudo_as_admin_successful 
+.viminfo

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+src=/home/ubuntu/scripts
+
+tgt=/home/ubuntu/backup
+
+tar -cvf $tgt/my_backup.tar.gz $src
